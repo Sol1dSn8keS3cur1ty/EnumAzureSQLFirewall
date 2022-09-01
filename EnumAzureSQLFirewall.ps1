@@ -1,4 +1,4 @@
-$Verbose = $True
+﻿$Verbose = $True
 function Write-Info ($Message) {
     If ($Verbose) {
         Write-Host $Message
